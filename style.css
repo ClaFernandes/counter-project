@@ -1,0 +1,65 @@
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin: 240px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no repeat;
+}
+
+h1 {
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons button {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+#increment-btn {
+    background-color: grey;
+}
+
+#save-btn {
+    background-color: black;
+}
+
+#reset-btn {
+    background-color: grey;
+}
+
+#clear-history-btn {
+    background-color: black;
+}
+
+.buttons button:active {
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+#count-el {
+    margin-top: 30px;
+    font-size: 40px;
+    color: #333;
+}
+
+#save-el {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #333;
+
+}
